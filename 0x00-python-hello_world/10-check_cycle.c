@@ -7,7 +7,6 @@
  * @list: pointer to list check
  * Return: 1 if cyelical, 0 otherwise
  */
-
 int check_cycle(listint_t *list)
 {
 	listint_t *slow = list, *fast = list;
